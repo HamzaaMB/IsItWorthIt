@@ -35,7 +35,7 @@ App has been deployed with Netlify can be viewed here: [Is It Worth It?](https:/
 
 After fighting the temptation to use the Rick and Morty API, we concluded that creating an app designed to help users in picking their holiday destination would seem perfect. Given the current climate of the world, we wanted to include all the information provided to us by APIs about all the countries which would make it easier for our users to make their decision.
 
-![screenshot](IsItWorthIt/screenshots/homepage.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/homepage.png)
 
 ## Approach Taken
 
@@ -43,32 +43,32 @@ After fighting the temptation to use the Rick and Morty API, we concluded that c
 
 Due to the deadline of 48 hours, our first task at hand was to find public APIs that would provide sufficient data for us to be able to use. Since we weren’t able to find one, we decided to use two APIs that would compliment the other. Once we found the API’s, we wireframed our components and what they would look like. Google docs in particular helped, as me and my teammate threw all the ideas we could think of on there and then trimmed it down to sections, MVP and Nice-To-Haves.
 
-![screenshot](IsItWorthIt/screenshots/googledoc.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/googledoc.png)
 
 ## Process
 
 Our process first included testing the API’s we had chosen extensively, to figure out what the data structure looks like. As we were using public API’s, we had to get familiar with different endpoints, what data they represent and which one we actually need for our app. Being particularly new to Insomnia and Axios, we managed to load them up on the browser in the form of logs to make sure all the data we needed was coming through. 
 
-![screenshot](IsItWorthIt/screenshots/insomnia.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/insomnia.png)
 
 The component that showed all our countries used the endpoint shown above, in the form of a GET request. 
 
-![screenshot](IsItWorthIt/screenshots/countryindex.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/countryindex.png)
 
 Next step was to create a component that shows the information of each individual country, based on what the user clicks. For this we had to keep a few things in mind, first was to create a new route for the country show page.
 
-![screenshot](IsItWorthIt/screenshots/path.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/path.png)
 
 In the component of country show, we created a get request for the second API, which worked in our case as across both APIs the country names were consistent. 
 
 Based on what the user chooses, we had Params in place that would make a request for data attached to that specific country. We were then able to add all this data and render it on the page along with a drop-down for average temperatures across the year. 
 
-![screenshot](IsItWorthIt/screenshots/getrequest.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/getrequest.png)
 
 The drop-down for the weather was attached to a conditional render, that would popup with a message based on which month the user selected.
 
 ![screenshot](IsItWorthIt/screenshots/dropdown.png)
-![screenshot](IsItWorthIt/screenshots/countryshow.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/countryshow.png)
 
 ## Bugs and Blockers
 
