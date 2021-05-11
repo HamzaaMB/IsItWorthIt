@@ -19,7 +19,6 @@ const CountryIndex = () => {
       return country.name.toUpperCase().includes(event.target.value.toUpperCase())
     })
     setFilteredCountries(filteredArray)
-    console.log(event.target.value)
   }
 
 

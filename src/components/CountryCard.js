@@ -18,7 +18,7 @@ const CountryCard = () => {
       }
       getData()
     } catch (err) {
-      console.log('bollocks')
+      console.log(err)
     }
   
   }, [])
