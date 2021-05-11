@@ -67,7 +67,7 @@ Based on what the user chooses, we had Params in place that would make a request
 
 The drop-down for the weather was attached to a conditional render, that would popup with a message based on which month the user selected.
 
-![screenshot](Ishttps://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/dropdown.png)
+![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/dropdown.png)
 ![screenshot](https://github.com/HamzaaMB/IsItWorthIt/blob/master/screenshots/countryshow.png)
 
 ## Bugs and Blockers
